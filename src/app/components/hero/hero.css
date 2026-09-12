@@ -1,0 +1,32 @@
+.hero{
+    display: flex;
+    width: 100%;
+    height: 20rem;
+    background-color: beige;
+}
+
+.hero-col-izq{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+
+}
+
+.hero-col-izq img{
+    
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+
+}
+
+.hero-col-der{
+    width: 70%;
+    padding-left: 2rem;
+}
+
+.hero-col-der p::first-letter{
+    font-size: 2rem;
+    color: black;
+}

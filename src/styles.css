@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+html{
+    box-sizing: border-box;
+}
+
+*, *::after, *::before{
+    box-sizing: inherit;
+}
+
+:root{
+    --color-primario: #1E90FF;
+    --color-secundario: #FFD700;
+    --color-fondo: #F5F5F5;
+    --color-texto: #333333;
+}
